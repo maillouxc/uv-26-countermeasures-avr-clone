@@ -34,7 +34,7 @@ Program Digit - Meaning
     
     2 - Number of flares to dispense per sequence
 
-    3	- Delay between sequences, in seconds.
+    3 - Delay between sequences, in seconds.
 
         Special cases:
     
@@ -49,26 +49,26 @@ The dispensing interval of flares within a sequence is a hardware limitation and
 
 External buttons have been ordered for use with this project. The intended functions of all buttons are given below:
 
-Button	- Function
-1	- Select LEFT/RIGHT/BOTH winglets.
-2	- Start dispensing
-3	- Stop dispensing
-External 1	- Increment program digit 1 (Sequences)
-External 2	- Increment program digit 2 (Quantity)
-External 3	- Increment program digit 3 (Interval)
-External 4	- Toggle programming mode
+    Button - Function
+        1 - Select LEFT/RIGHT/BOTH winglets.
+        2 - Start dispensing
+        3 - Stop dispensing
+        External 1 - Increment program digit 1 (Sequences)
+        External 2 - Increment program digit 2 (Quantity)
+        External 3 - Increment program digit 3 (Interval)
+        External 4 - Toggle programming mode
 
 Note that there is an additional button on the real system that is not modeled, which resets to the default program. This can be 
 simulated by resetting the board itself.
 
 Additionally, the program will use several LEDs to indicate state, show below:
 
-LED	Meaning
-Top Yellow	- Simulate dispensing left flare
-Bottom Yellow	- Simulate dispensing right flare
-Red	- Left winglet selected
-Green	- Right winglet selected
-Orange - (Red and Green together)	Both winglets selected
+    LED	- Meaning
+    Top Yellow	- Simulate dispensing left flare
+    Bottom Yellow - Simulate dispensing right flare
+    Red	- Left winglet selected
+    Green - Right winglet selected
+    Orange - (Red and Green together) Both winglets selected
 
 Note that the choices of the red and green LEDs are perfect, since a red light represents the left side of a boat or plane, and green 
 represents the left.
