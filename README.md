@@ -9,7 +9,7 @@ heads.
 
 The Ka-50 Black Shark, a Russian attack helicopter, has such a system, called the UV-26 countermeasures system. The Ka-50 contains 64 
 flares in each winglet-mounted dispenser, for a total of 128. The UV-26 system is operated via a small control panel in the top right of 
-the cockpit, where the pilot can create and execute various simple dispensing programs to react to different threat environments. I  
+the cockpit, where the pilot can create and execute various simple dispensing programs to react to different threat environments. I 
 intend to replicate the behavior of this panel.
 
 The system is completely isolated from every other system of the helicopter for redundancy, so the scope of the project is relatively 
