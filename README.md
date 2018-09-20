@@ -24,31 +24,35 @@ a button in my version.
 
 Countermeasures dispensing programs are built as follows:
 
-Program Digit	Meaning
-1	Number of sequences of dispensing to run.
-
-Special case:
-0 = Infinite sequences
-2	Number of flares to dispense per sequence
-3	Delay between sequences, in seconds.
-
-Special cases:
-7 = 0.25 s
-9 = 0.5 s
-0 = 0.125 s
+Program Digit	| Meaning
+________________________________________________________
+1             | Number of sequences of dispensing to run.
+              |
+              | Special case:
+              | 0 = Infinite sequences
+________________________________________________________
+2	            | Number of flares to dispense per sequence
+________________________________________________________
+3	            | Delay between sequences, in seconds.
+              |
+              | Special cases:
+              | 7 = 0.25 s
+              | 9 = 0.5 s
+              | 0 = 0.125 s
+________________________________________________________
 
 The dispensing interval of flares within a sequence is a hardware limitation and is assumed to be 0.1 seconds in my implementation.
 
 External buttons have been ordered for use with this project. The intended functions of all buttons are given below:
 
-Button	Function
-1	Select LEFT/RIGHT/BOTH winglets.
-2	Start dispensing
-3	Stop dispensing
-External 1	Increment program digit 1 (Sequences)
-External 2	Increment program digit 2 (Quantity)
-External 3	Increment program digit 3 (Interval)
-External 4	Toggle programming mode
+Button	- Function
+1	- Select LEFT/RIGHT/BOTH winglets.
+2	- Start dispensing
+3	- Stop dispensing
+External 1	- Increment program digit 1 (Sequences)
+External 2	- Increment program digit 2 (Quantity)
+External 3	- Increment program digit 3 (Interval)
+External 4	- Toggle programming mode
 
 Note that there is an additional button on the real system that is not modeled, which resets to the default program. This can be 
 simulated by resetting the board itself.
@@ -56,11 +60,11 @@ simulated by resetting the board itself.
 Additionally, the program will use several LEDs to indicate state, show below:
 
 LED	Meaning
-Top Yellow	Simulate dispensing left flare
-Bottom Yellow	Simulate dispensing right flare
-Red	Left winglet selected
-Green	Right winglet selected
-Orange (Red and Green together)	Both winglets selected
+Top Yellow	- Simulate dispensing left flare
+Bottom Yellow	- Simulate dispensing right flare
+Red	- Left winglet selected
+Green	- Right winglet selected
+Orange - (Red and Green together)	Both winglets selected
 
 Note that the choices of the red and green LEDs are perfect, since a red light represents the left side of a boat or plane, and green 
 represents the left.
