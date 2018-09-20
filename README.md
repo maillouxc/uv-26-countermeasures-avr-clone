@@ -16,7 +16,7 @@ The system is completely isolated from every other system of the helicopter for 
 contained.
 
 A red, 3-digit 7-segment display displays the current flare dispensing program. The two yellow LEDs on the board will be used to model 
-the dispensing of flares, flashing for 1/10 second to represent a flare being fired, and the LCD screen on the screen will replace the 
+the dispensing of flares, flashing for 1/10 second to represent a flare being fired, and the LCD screen on the board will replace the 
 7-segment display.
 
 In the real word, a three-position switch is used to select which winglet will dispense flares – Left, Right or Both. This is modeled by 
