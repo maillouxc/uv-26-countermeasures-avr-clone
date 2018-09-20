@@ -24,22 +24,16 @@ a button in my version.
 
 Countermeasures dispensing programs are built as follows:
 
-Program Digit	| Meaning
-________________________________________________________
-1             | Number of sequences of dispensing to run.
-              |
-              | Special case:
-              | 0 = Infinite sequences
-________________________________________________________
-2	            | Number of flares to dispense per sequence
-________________________________________________________
-3	            | Delay between sequences, in seconds.
-              |
-              | Special cases:
-              | 7 = 0.25 s
-              | 9 = 0.5 s
-              | 0 = 0.125 s
-________________________________________________________
+Program Digit	- Meaning
+1 - Number of sequences of dispensing to run.
+    Special case:
+    0 = Infinite sequences
+2 - Number of flares to dispense per sequence
+3	- Delay between sequences, in seconds.
+    Special cases:
+    7 = 0.25 s
+    9 = 0.5 s
+    0 = 0.125 s
 
 The dispensing interval of flares within a sequence is a hardware limitation and is assumed to be 0.1 seconds in my implementation.
 
